@@ -1,2 +1,0 @@
-date
-sleep 3
