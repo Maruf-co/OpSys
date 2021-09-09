@@ -1,0 +1,26 @@
+tmp2-+-tmp2-+-tmp2---tmp2
+     |      `-tmp2
+     |-tmp2---tmp2
+     `-tmp2
+
+// After calling fork 3 times we can see that 8 (2^3) 
+// processes are created
+
+tmp2-+-tmp2-+-tmp2-+-tmp2-+-tmp2---tmp2
+     |      |      |      `-tmp2
+     |      |      |-tmp2---tmp2
+     |      |      `-tmp2
+     |      |-tmp2-+-tmp2---tmp2
+     |      |      `-tmp2
+     |      |-tmp2---tmp2
+     |      `-tmp2
+     |-tmp2-+-tmp2-+-tmp2---tmp2
+     |      |      `-tmp2
+     |      |-tmp2---tmp2
+     |      `-tmp2
+     |-tmp2-+-tmp2---tmp2
+     |      `-tmp2
+     |-tmp2---tmp2
+     `-tmp2
+// While after calling fork 5 times 32 (2^5) 
+// processes are created
