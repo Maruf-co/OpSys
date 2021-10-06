@@ -1,0 +1,4 @@
+Physical address refer to real hardware address in the memory, while virtual
+address refer to some imaginary address known just to process. In fact virtual 
+addresses can refer to another phyical addresses and can have limits quite larger
+than limit adress of real machine memory.
