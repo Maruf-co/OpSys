@@ -1,0 +1,5 @@
+1) If our input would consist of pages with same number, then we will have hit = m and miss = 0 
+which means hit/miss == infinity. So many duplicated pages would INCREASE hit/miss ratio
+2) On the other hand if we will have pages with unique numbers, then hit = 0, miss = 0, so our
+ratio hit/miss == 0. Therefore, having less amount of pages with same number would lead to DECREASED
+hit/miss ratio
