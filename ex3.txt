@@ -1,6 +1,0 @@
--rw-r--r-- 1 maruf maruf 38 Oct 24 00:24 _ex3.txt
--rwxr--rwx 1 maruf maruf 38 Oct 24 00:24 _ex3.txt
--rwxrwxrwx 1 maruf maruf 38 Oct 24 00:24 _ex3.txt
-660 means 6 for user (read and write permissions(r+w)), 6 for group (r+w), 0 for others (no permission
-775 means 7 for user (r+w+e (execute permission)), 7 for group (r+w+e), 5 for others (r+e)
-777 means r+w+e for everyone
