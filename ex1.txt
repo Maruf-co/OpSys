@@ -1,6 +1,0 @@
-total 16
-40778 -rw-r--r-- 3 maruf maruf  28 Oct 23 18:13 _ex1.txt
-40778 -rw-r--r-- 3 maruf maruf  28 Oct 23 18:13 _ex1_1.txt
-40778 -rw-r--r-- 3 maruf maruf  28 Oct 23 18:13 _ex1_2.txt
-40779 -rw-r--r-- 1 maruf maruf 128 Oct 23 18:13 ex1.sh
-40780 -rw-r--r-- 1 maruf maruf   0 Oct 23 18:13 ex1.txt
