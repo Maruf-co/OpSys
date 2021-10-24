@@ -1,3 +1,0 @@
-File -- Hard Links
-file1 -- file1.txt, link1.txt,  
-link1 -- file1.txt, link1.txt,  
