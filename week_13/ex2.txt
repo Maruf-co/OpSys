@@ -1,0 +1,27 @@
+Strategies of dealing with deadlocks:
+1) Avoidance
+In deadlock avoidance, the operating system checks whether the 
+system is in safe state or in unsafe state at every step which 
+the operating system performs. The process continues until the 
+system is in safe state. Once the system moves to unsafe state, 
+the OS has to backtrack one step. This requires more information 
+about each process, AND tends to lead to low device utilization.
+2) Recovery
+This approach let the processes fall in deadlock and then 
+periodically check whether deadlock occur in the system or not. 
+If it occurs then it applies some of the recovery methods to the 
+system to get rid of deadlock. In addition to the performance hit 
+of constantly checking for deadlocks, a policy / algorithm must be 
+in place for recovering from deadlocks, and there is potential for 
+lost work when processes must be aborted or have their resources 
+preempted.
+3) Prevention
+Deadlock happens only when Mutual Exclusion, hold and wait, 
+No preemption and circular wait holds simultaneously. 
+If it is possible to violate one of the four conditions at 
+any time then the deadlock can never occur in the system.
+
+Therefore, deadlock Prevention is better than other strategies 
+'cause it required less info about processes. 
+Avoidance is less effective than Prevention, but 
+still more effective than Recovery. 
